@@ -1,0 +1,227 @@
+.htmlbackground {
+    background-color: #f4f6fa;
+}
+
+header {
+    background-color: white;
+    padding: 0 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 19px;
+}
+
+header img {
+    padding-right: 0px;
+    scale: 60%;
+}
+
+nav u1 {
+padding: 0;
+margin: 0;
+}
+
+nav u1 li {
+    display: inline-block;
+    margin-right: 10px;
+}   
+
+nav u1 li a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero_section {
+background-color: aqua;
+text-align: center;
+padding: 100px;
+}
+
+.hero_section h4 {
+    margin-top: 200px;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    border: 5px solid black;
+    margin: 60px;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+}
+
+.textcentered {
+    text-align: center;
+}
+
+.boxwithimages {
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 140px;
+    margin-top: 50px;
+}
+
+.boxwithimages .cardinbox {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.mainbox {
+    display: flex;
+    justify-content: space-around;
+     margin-top: 30px;
+}
+
+.lastbox {
+    display: flex; 
+    align-items: center;
+}
+
+.lastbox .lastbox-text-content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    gap: 0px;
+margin-left: 20px;
+}
+
+footer {
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+footer .Socialmediabuttons {
+    padding-left: 1000px;
+position: relative;
+top: -80px;
+}
+
+footer .Socialmediabuttons .btn img {
+width: 40px;
+height: 40px;
+}
+
+footer .Contactboxes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    margin-left: 200px;
+}
+
+footer #Contactbox {
+    background-color: whitesmoke;
+    width: 220px;
+    border-radius: 20px;
+}
+
+footer #locationbox img,
+#Contactbox img {
+    position: relative;
+    top: 35px;
+    left: 20px;
+}
+
+footer #locationbox h6,
+#Contactbox h6 {
+        position: relative; left: 70px; bottom: 30px;
+}
+
+footer #locationbox a,
+#Contactbox a {
+    position: relative;
+    margin-left: 60px;
+    bottom: 40px;
+}
+
+footer #locationbox {
+     background-color: whitesmoke;
+    width: 400px;
+    border-radius: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.belowinfo {
+    display: flex;
+    gap: 240px;
+}
+
+.hover-underline {
+    color: black;
+    text-decoration: none;
+    transition: text-decoration 0.2s ease-in-out;
+}
+
+.hover-underline:hover {
+    text-decoration: underline;
+}
+
+h1 {
+margin: 50px;
+}
+
+.blogsbox {
+    display: flex;
+    justify-content: center;
+}
+
+.blog1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.blog1 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.blog1 p {
+    position: absolute;  
+    bottom: 20px;         
+    left: 0;              
+    right: 0;             
+    z-index: 2;           
+
+    text-align: center;   
+    color: black;
+    padding: 10px;
+    margin: 0 20px; 
+    border-radius: 8px;
+}
